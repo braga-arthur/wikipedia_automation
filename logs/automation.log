@@ -1,0 +1,83 @@
+2025-09-30 20:09:47,214 [INFO] ====== WebDriver manager ======
+2025-09-30 20:09:50,500 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:09:50,584 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:09:50,705 [INFO] There is no [mac64] chromedriver "140.0.7339.207" for browser google-chrome "140.0.7339" in cache
+2025-09-30 20:09:50,714 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:09:50,889 [INFO] WebDriver version 140.0.7339.207 selected
+2025-09-30 20:09:50,893 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/mac-arm64/chromedriver-mac-arm64.zip
+2025-09-30 20:09:50,893 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/mac-arm64/chromedriver-mac-arm64.zip
+2025-09-30 20:09:51,039 [INFO] Driver downloading response is 200
+2025-09-30 20:09:51,852 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:09:51,972 [INFO] Driver has been saved in cache [/Users/arthurbraga/.wdm/drivers/chromedriver/mac64/140.0.7339.207]
+2025-09-30 20:09:53,596 [INFO] Abrindo Wikipedia
+2025-09-30 20:09:53,596 [ERROR] Erro durante execução: 'HomePage' object has no attribute 'open'
+Traceback (most recent call last):
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/runner.py", line 24, in main
+    wiki.open(config.BASE_URL)
+AttributeError: 'HomePage' object has no attribute 'open'
+2025-09-30 20:10:57,217 [INFO] ====== WebDriver manager ======
+2025-09-30 20:10:57,427 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:10:57,491 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:10:57,624 [INFO] Driver [/Users/arthurbraga/.wdm/drivers/chromedriver/mac64/140.0.7339.207/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-30 20:10:58,549 [INFO] Abrindo Wikipedia
+2025-09-30 20:11:00,834 [INFO] Pesquisando por: Selenium (software)
+2025-09-30 20:11:00,835 [ERROR] Erro durante execução: 'HomePage' object has no attribute 'SEARCH_INPUT'
+Traceback (most recent call last):
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/runner.py", line 29, in main
+    wiki.search(termo)
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/pages/home_page.py", line 15, in search
+    self.send_keys(*self.SEARCH_INPUT, text)
+AttributeError: 'HomePage' object has no attribute 'SEARCH_INPUT'
+2025-09-30 20:11:11,824 [INFO] ====== WebDriver manager ======
+2025-09-30 20:11:11,972 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:11:12,131 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:11:12,217 [INFO] Driver [/Users/arthurbraga/.wdm/drivers/chromedriver/mac64/140.0.7339.207/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-30 20:11:12,911 [INFO] Abrindo Wikipedia
+2025-09-30 20:11:15,106 [INFO] Pesquisando por: Selenium (software)
+2025-09-30 20:11:15,106 [ERROR] Erro durante execução: 'HomePage' object has no attribute 'SEARCH_INPUT'
+Traceback (most recent call last):
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/runner.py", line 29, in main
+    wiki.search(termo)
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/pages/home_page.py", line 15, in search
+    self.send_keys(*self.SEARCH_INPUT, text)
+AttributeError: 'HomePage' object has no attribute 'SEARCH_INPUT'
+2025-09-30 20:11:54,267 [INFO] ====== WebDriver manager ======
+2025-09-30 20:11:54,475 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:11:54,546 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:11:54,613 [INFO] Driver [/Users/arthurbraga/.wdm/drivers/chromedriver/mac64/140.0.7339.207/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-30 20:11:55,501 [INFO] Abrindo Wikipedia
+2025-09-30 20:11:57,704 [INFO] Pesquisando por: Selenium (software)
+2025-09-30 20:11:57,705 [ERROR] Erro durante execução: 'HomePage' object has no attribute 'SEARCH_INPUT'
+Traceback (most recent call last):
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/runner.py", line 29, in main
+    wiki.search(termo)
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/pages/home_page.py", line 15, in search
+    self.send_keys(*self.SEARCH_INPUT, text)
+AttributeError: 'HomePage' object has no attribute 'SEARCH_INPUT'
+2025-09-30 20:13:20,057 [INFO] ====== WebDriver manager ======
+2025-09-30 20:13:20,279 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:13:20,340 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:13:20,406 [INFO] Driver [/Users/arthurbraga/.wdm/drivers/chromedriver/mac64/140.0.7339.207/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-30 20:13:21,242 [INFO] Abrindo Wikipedia
+2025-09-30 20:13:23,402 [INFO] Pesquisando por: Selenium (software)
+2025-09-30 20:13:28,781 [INFO] Título encontrado: Selenium (software)
+2025-09-30 20:15:34,334 [INFO] ====== WebDriver manager ======
+2025-09-30 20:15:34,415 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:15:34,485 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:15:34,553 [INFO] Driver [/Users/arthurbraga/.wdm/drivers/chromedriver/mac64/140.0.7339.207/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-30 20:15:35,556 [INFO] Abrindo Wikipedia
+2025-09-30 20:15:37,765 [INFO] Pesquisando por: Selenium (software)
+2025-09-30 20:15:37,766 [ERROR] Erro durante execução: send_keys() missing 1 required positional argument: 'keys'
+Traceback (most recent call last):
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/runner.py", line 29, in main
+    wiki.search(termo)
+  File "/Users/arthurbraga/Desktop/wikipedia_automation/src/pages/home_page.py", line 14, in search
+    self.send_keys(self.SEARCH_INPUT, text)
+TypeError: send_keys() missing 1 required positional argument: 'keys'
+2025-09-30 20:16:20,428 [INFO] ====== WebDriver manager ======
+2025-09-30 20:16:20,644 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:16:20,706 [INFO] Get LATEST chromedriver version for google-chrome
+2025-09-30 20:16:20,767 [INFO] Driver [/Users/arthurbraga/.wdm/drivers/chromedriver/mac64/140.0.7339.207/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-30 20:16:21,589 [INFO] Abrindo Wikipedia
+2025-09-30 20:16:23,808 [INFO] Pesquisando por: Selenium (software)
+2025-09-30 20:16:26,954 [INFO] Título encontrado: Selenium (software)
