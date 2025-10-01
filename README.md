@@ -1,6 +1,6 @@
 # Wikipedia Automation
 
-Este projeto uma pessoa na Wikipédia e retorna o valor da linha **Alma mater** da infobox, se existir.
+This project searches for a person on Wikipedia and returns the value of the **Alma mater** field from the infobox, if it exists.
 
 ---
 
@@ -13,19 +13,19 @@ Este projeto uma pessoa na Wikipédia e retorna o valor da linha **Alma mater** 
 
 ---
 
-## Instalação
+## Installation
 
-1. Decompacte o projeto e abra a pasta wikipedia_automation
+1. Extract the project and open the `wikipedia_automation` folder
 
-2. Crie um ambiente virtual:
+2. Create a virtual environment:
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
-.venv\Scripts\activate
+source .venv/bin/activate  # Mac/Linux
+.venv\Scripts\activate     # Windows
 ```
 
-3. Instale as dependências:
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -33,21 +33,21 @@ pip install -r requirements.txt
 
 ---
 
-Como Executar
+## How to Run
 
 ```bash
 python -m src.runner
 ```
 
-## Padrão de Projeto
+## Project Structure / Design Pattern
 
-O projeto segue o padrão **Page Object Model (POM)**:
+The project follows the **Page Object Model (POM)** pattern:
 
-* Cada página da web tem uma classe que contém os elementos e ações da página
-* A classe `BasePage` guarda o driver e pode ser expandida futuramente para mais métodos
-* O `runner.py` é o script de test
+* Each web page has a class containing the page elements and actions
+* The `BasePage` class holds the driver and can be extended in the future for additional methods
+* `runner.py` is the main execution script
 
-## Para ver os logs
+## Viewing Logs
 
 ```bash
 cat logs/run.log
